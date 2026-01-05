@@ -1,6 +1,6 @@
 # 9DoF calc rotation with gravity effect
 
-![screenshot.jpg](src/assets/screenshot.jpg)
+![screenshot.jpg](src/assets/screenshot2.jpg)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
