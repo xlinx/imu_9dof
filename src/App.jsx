@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Phone3DScene from './components/Phone3DScene'
+import Phone3DSketch from './components/Phone3DSketch'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -67,13 +67,7 @@ function App() {
       
       {/* 3D Phone Visualization */}
       <div style={{ marginBottom: '20px' }}>
-        <Phone3DScene 
-          xyz={xyz} 
-          abg={abg} 
-          absabg={absabg} 
-          useAbsolute={useAbsolute}
-          showControls={true}
-        />
+        <Phone3DSketch xyz={xyz} abg={abg} absabg={absabg} useAbsolute={useAbsolute} showControls={true} />
       </div>
       
       {/* Control Buttons */}
